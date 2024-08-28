@@ -9,7 +9,7 @@ model = tf.keras.models.load_model('Raisin_Classifier.h5')
 scaler = joblib.load('scaler.pkl')
 
 # Add some visual appeal with images
-st.image(r"C:\Users\HP\Desktop\RAISIN_BACKGROUND.webp", caption="Raisin Image", use_column_width=True)
+st.image("RAISIN_BACKGROUND.webp", caption="Raisin Image", use_column_width=True)
 
 # Streamlit app title and description
 st.title("Raisin Classification")
