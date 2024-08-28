@@ -4,3 +4,4 @@ pandas
 tensorflow
 joblib
 setuptools
+scikit-learn
