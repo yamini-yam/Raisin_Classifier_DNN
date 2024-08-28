@@ -5,8 +5,8 @@ import tensorflow as tf
 import joblib
 
 # Load the trained model and scaler
-model = tf.keras.models.load_model(r'c:\Users\HP\Downloads\Raisin_Classifier.h5')
-scaler = joblib.load(r'C:\Users\HP\Downloads\scaler.pkl')
+model = tf.keras.models.load_model('Raisin_Classifier.h5')
+scaler = joblib.load('scaler.pkl')
 
 # Add some visual appeal with images
 st.image(r"C:\Users\HP\Desktop\RAISIN_BACKGROUND.webp", caption="Raisin Image", use_column_width=True)
