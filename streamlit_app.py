@@ -8,9 +8,6 @@ import joblib
 model = tf.keras.models.load_model('Raisin_Classifier.h5')
 scaler = joblib.load('scaler.pkl')
 
-# Add some visual appeal with images
-st.image("RIFF>�", caption="Raisin Image", use_column_width=True)
-
 # Streamlit app title and description
 st.title("Raisin Classification")
 st.markdown("### Predict whether a raisin is of type **Kecimen** or **Besni** based on its features.")
